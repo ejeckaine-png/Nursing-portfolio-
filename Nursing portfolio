@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elohrd Jeckaine M. Pantilon, RN - GOAL MAP & Workplace Shark Tank Portfolio</title>
+<!-- Meta tags for automated checkers, scrapers, and identity verification -->
+<meta name="author" content="Elohrd Jeckaine M. Pantilon">
+<meta name="description" content="Nursing Job Application Portfolio of Elohrd Jeckaine M. Pantilon, RN featuring GOAL MAP, Workplace Shark Tank, and TikTok o Reels Career Skit Challenge. Email: ejeckaine@gmail.com | Phone: 09164030463">
+<meta name="keywords" content="GOAL MAP, Workplace Shark Tank, TikTok o Reels Career Skit Challenge, Dezel Cosmetics, Nursing Portfolio, Elohrd Jeckaine M. Pantilon, Registered Nurse">
+<meta name="email" content="ejeckaine@gmail.com">
+<meta name="phone" content="09164030463">
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+tealmed: {
+50: '#f0fdfa',
+100: '#ccfbf1',
+400: '#2dd4bf',
+500: '#14b8a6',
+600: '#0d9488',
+800: '#115e59',
+900: '#134e4a',
+}
+}
+}
+}
+}
+</script>
+<!-- FontAwesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+body {
+font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.custom-scrollbar::-webkit-scrollbar {
+width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+background: rgba(15, 23, 42, 0.6);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+background: rgba(45, 212, 191, 0.3);
+border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+background: rgba(45, 212, 191, 0.6);
+}
+</style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-tealmed-500 selection:text-white custom-scrollbar">
+<!-- Toast Notification -->
+<div id="toastNotification" class="fixed bottom-5 right-5 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none bg-tealmed-600 text-slate-950 font-bold px-4 py-3 rounded-2xl shadow-2xl flex items-center gap-3 border border-tealmed-400">
+<i class="fa-solid fa-check-circle text-lg"></i>
+<span id="toastMessage">Copied to clipboard!</span>
+</div>
+<!-- Header Navigation -->
+<header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 shadow-lg">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<!-- Brand / Logo -->
+<div id="brandLogo" class="flex items-center gap-3 cursor-pointer select-none">
+<div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-tealmed-600 to-tealmed-400 flex items-center justify-center text-slate-950 font-black text-xl shadow-md shadow-tealmed-500/20">
+<i class="fa-solid fa-user-nurse"></i>
+</div>
+<div>
+<span id="headerName" class="font-bold text-base sm:text-lg text-white tracking-tight block leading-none">Elohrd Jeckaine M. Pantilon, RN</span>
+<span class="text-[11px] text-tealmed-400 font-medium">Nursing Career Portfolio</span>
+</div>
+</div>
+<!-- Navigation Links -->
+<nav class="hidden lg:flex items-center space-x-1 text-xs font-semibold uppercase tracking-wider text-slate-300">
+<a href="#home" class="px-3 py-2 rounded-lg hover:text-tealmed-400 hover:bg-slate-800 transition-all">Home</a>
+<a href="#personal" class="px-3 py-2 rounded-lg hover:text-tealmed-400 hover:bg-slate-800 transition-all">Personal Info</a>
+<a href="#experience" class="px-3 py-2 rounded-lg hover:text-tealmed-400 hover:bg-slate-800 transition-all">Experience</a>
+<a href="#education" class="px-3 py-2 rounded-lg hover:text-tealmed-400 hover:bg-slate-800 transition-all">Education</a>
+<a href="#skills" class="px-3 py-2 rounded-lg hover:text-tealmed-400 hover:bg-slate-800 transition-all">Skills</a>
+<a href="#projects" class="px-3 py-2 rounded-lg hover:text-tealmed-400 hover:bg-slate-800 transition-all">Projects</a>
+<a href="#references" class="px-3 py-2 rounded-lg hover:text-tealmed-400 hover:bg-slate-800 transition-all">References</a>
+<a href="#contact" class="px-3 py-2 rounded-lg hover:text-tealmed-400 hover:bg-slate-800 transition-all">Contact Me</a>
+</nav>
+<!-- Header Actions -->
+<div class="flex items-center gap-2">
+<button onclick="copyPortfolioLink()" class="inline-flex items-center gap-1.5 bg-tealmed-500 hover:bg-tealmed-400 text-slate-950 font-bold px-3 py-2 rounded-xl text-xs transition-all shadow-md shadow-tealmed-500/20 active:scale-95 cursor-pointer">
+<i class="fa-solid fa-link"></i>
+<span class="inline">Copy Link</span>
+</button>
+<button onclick="copyPortfolioContents()" class="hidden sm:inline-flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium px-3 py-2 rounded-xl text-xs border border-slate-700 transition-all cursor-pointer">
+<i class="fa-solid fa-copy"></i>
+<span>Copy Text</span>
+</button>
+<!-- Mobile Menu Button -->
+<button id="mobileMenuBtn" class="lg:hidden p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white focus:outline-none">
+<i class="fa-solid fa-bars text-xl"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Mobile Navigation Menu -->
+<div id="mobileMenu" class="hidden lg:hidden bg-slate-900 border-b border-slate-800 px-4 pt-2 pb-4 space-y-1 text-sm">
+<a href="#home" class="block px-3 py-2 rounded-md hover:bg-slate-800 text-slate-200">Home</a>
+<a href="#personal" class="block px-3 py-2 rounded-md hover:bg-slate-800 text-slate-200">Personal Info</a>
+<a href="#experience" class="block px-3 py-2 rounded-md hover:bg-slate-800 text-slate-200">Experience</a>
+<a href="#education" class="block px-3 py-2 rounded-md hover:bg-slate-800 text-slate-200">Education</a>
+<a href="#skills" class="block px-3 py-2 rounded-md hover:bg-slate-800 text-slate-200">Skills & Talents</a>
+<a href="#projects" class="block px-3 py-2 rounded-md hover:bg-slate-800 text-slate-200">Projects Accomplished</a>
+<a href="#references" class="block px-3 py-2 rounded-md hover:bg-slate-800 text-slate-200">References</a>
+<a href="#contact" class="block px-3 py-2 rounded-md hover:bg-slate-800 text-slate-200">Contact Me</a>
+</div>
+</header>
+<!-- Main Container -->
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
+<!-- SECTION 1: HOME / PROFILE SUMMARY -->
+<section id="home" class="scroll-mt-24">
+<div class="relative rounded-3xl bg-gradient-to-br from-slate-900 via-slate-900/90 to-tealmed-950/40 border border-slate-800 p-6 sm:p-10 shadow-2xl overflow-hidden">
+<div class="absolute -top-24 -right-24 w-96 h-96 bg-tealmed-500/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="flex flex-col md:flex-row items-center gap-8 relative z-10">
+<div class="relative group">
+<img id="displayAvatar" src="https://images.unsplash.com/photo-1594824813566-88855ce75341?auto=format&fit=crop&q=80&w=400" alt="Elohrd Jeckaine M. Pantilon, RN" class="w-40 h-40 sm:w-48 sm:h-48 rounded-2xl object-cover ring-4 ring-tealmed-500/30 shadow-xl">
+<span class="absolute -bottom-2 -right-2 bg-tealmed-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full shadow-md flex items-center gap-1">
+<i class="fa-solid fa-certificate"></i> RN Licensed
+</span>
+</div>
+<div class="space-y-4 text-center md:text-left flex-1">
+<div>
+<span class="inline-block px-3 py-1 text-xs font-bold tracking-wider text-tealmed-400 bg-tealmed-500/10 rounded-full border border-tealmed-500/20 mb-2">
+Registered Nurse / Healthcare Professional
+</span>
+<h1 id="displayName" class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Elohrd Jeckaine M. Pantilon, RN</h1>
+<p id="displayTitle" class="text-tealmed-400 font-semibold text-lg mt-1">Emergency Room & Critical Care Staff Nurse</p>
+</div>
+<div class="bg-slate-800/50 rounded-2xl p-4 sm:p-5 border border-slate-700/50">
+<h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2 flex items-center justify-center md:justify-start gap-2">
+<i class="fa-solid fa-user-check text-tealmed-400"></i> Self Description / About Me
+</h2>
+<p id="displayAboutMe" class="text-slate-300 text-sm sm:text-base leading-relaxed">
+Ako si Elohrd Jeckaine M. Pantilon, isang dedikado at lisensyadong Registered Nurse (RN) na may masigasig na layuning magbigay ng ligtas, episyente, at compassionate patient care. May karanasan sa Emergency Room (ER) at Medical-Surgical Ward, certified sa Basic Life Support (BLS) at Advanced Cardiac Life Support (ACLS). Nakahanda akong maglingkod nang buong husay, mabilis tumugon sa medikal na emergency, at makipagtulungan sa interdisciplinary medical team upang masiguro ang mabilisang paggaling at kaligtasan ng bawat pasyente.
+</p>
+</div>
+<div class="flex flex-wrap gap-3 justify-center md:justify-start pt-2">
+<button onclick="copyPortfolioLink()" class="inline-flex items-center gap-2 bg-tealmed-500 hover:bg-tealmed-400 text-slate-950 font-bold px-5 py-2.5 rounded-xl transition-all shadow-lg shadow-tealmed-500/20 text-sm cursor-pointer active:scale-95">
+<i class="fa-solid fa-link"></i> Copy Portfolio Link
+</button>
+<button onclick="copyPortfolioContents()" class="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold px-4 py-2.5 rounded-xl transition-all border border-slate-700 text-sm cursor-pointer">
+<i class="fa-solid fa-copy text-tealmed-400"></i> Copy All Text
+</button>
+<a href="#contact" class="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold px-4 py-2.5 rounded-xl transition-all border border-slate-700 text-sm">
+<i class="fa-solid fa-paper-plane text-tealmed-400"></i> Contact Me
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: PERSONAL INFORMATION -->
+<section id="personal" class="scroll-mt-24">
+<div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
+<div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800">
+<div class="w-10 h-10 rounded-xl bg-tealmed-500/10 text-tealmed-400 flex items-center justify-center font-bold text-lg border border-tealmed-500/20">
+<i class="fa-solid fa-id-card"></i>
+</div>
+<div>
+<h2 class="text-xl font-bold text-white">2. Personal Information</h2>
+<p class="text-xs text-slate-400">Basic resume parameters required for hospital and healthcare applications.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50">
+<span class="text-xs font-medium text-slate-400 uppercase tracking-wider block">Full Name</span>
+<span id="infoFullName" class="font-bold text-slate-100 text-base">Elohrd Jeckaine M. Pantilon</span>
+</div>
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50">
+<span class="text-xs font-medium text-slate-400 uppercase tracking-wider block">Email Address</span>
+<span id="infoEmail" class="font-bold text-tealmed-400 text-base">ejeckaine@gmail.com</span>
+</div>
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50">
+<span class="text-xs font-medium text-slate-400 uppercase tracking-wider block">PRC License Status</span>
+<span id="infoPrcNo" class="font-bold text-emerald-400 text-base">PRC License # 0892341 (Valid until Oct 2028)</span>
+</div>
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50">
+<span class="text-xs font-medium text-slate-400 uppercase tracking-wider block">Date of Birth & Age</span>
+<span id="infoDob" class="font-semibold text-slate-200">October 14, 1998 (27 yrs old)</span>
+</div>
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50">
+<span class="text-xs font-medium text-slate-400 uppercase tracking-wider block">Civil Status</span>
+<span id="infoCivilStatus" class="font-semibold text-slate-200">Single</span>
+</div>
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50">
+<span class="text-xs font-medium text-slate-400 uppercase tracking-wider block">Nationality</span>
+<span id="infoNationality" class="font-semibold text-slate-200">Filipino</span>
+</div>
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50">
+<span class="text-xs font-medium text-slate-400 uppercase tracking-wider block">Languages Spoken</span>
+<span id="infoLanguages" class="font-semibold text-slate-200">Filipino, English, Basic Ilocano</span>
+</div>
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50">
+<span class="text-xs font-medium text-slate-400 uppercase tracking-wider block">Work Availability</span>
+<span id="infoAvailability" class="font-semibold text-tealmed-400">Full-Time (Rotational / Night Shift Ready)</span>
+</div>
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50 md:col-span-2 lg:col-span-1">
+<span class="text-xs font-medium text-slate-400 uppercase tracking-wider block">Current Residential Address</span>
+<span id="infoAddress" class="font-semibold text-slate-200 text-xs sm:text-sm">San Narciso, Zambales, Philippines</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: WORK EXPERIENCE -->
+<section id="experience" class="scroll-mt-24">
+<div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
+<div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800">
+<div class="w-10 h-10 rounded-xl bg-tealmed-500/10 text-tealmed-400 flex items-center justify-center font-bold text-lg border border-tealmed-500/20">
+<i class="fa-solid fa-briefcase"></i>
+</div>
+<div>
+<h2 class="text-xl font-bold text-white">3. Work Experience</h2>
+<p class="text-xs text-slate-400">Structured Parts: <strong>1. Company Name</strong>, <strong>2. Years Tenure</strong>, <strong>3. Position</strong>.</p>
+</div>
+</div>
+<div id="experienceList" class="space-y-4">
+<!-- Experience 1 -->
+<div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/50 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+<div class="space-y-1">
+<span class="text-xs text-tealmed-400 font-bold uppercase tracking-wider">1. Company Name</span>
+<h3 class="text-lg font-bold text-white">St. Jude General Hospital & Medical Center</h3>
+<p class="text-sm font-semibold text-slate-300">3. Position: <span class="text-tealmed-400">Staff Nurse - Emergency Department (ED)</span></p>
+<p class="text-xs text-slate-400">Triage assessment, trauma resuscitation, IV insertion, code blue response, patient monitoring, and medication administration.</p>
+</div>
+<div class="bg-slate-900 px-4 py-2 rounded-xl border border-slate-700 text-xs font-bold text-tealmed-400 whitespace-nowrap">
+2. Tenure: Jan 2023 - Present (2+ Years)
+</div>
+</div>
+<!-- Experience 2 -->
+<div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/50 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+<div class="space-y-1">
+<span class="text-xs text-tealmed-400 font-bold uppercase tracking-wider">1. Company Name</span>
+<h3 class="text-lg font-bold text-white">Metropolitan Medical Ward Clinic</h3>
+<p class="text-sm font-semibold text-slate-300">3. Position: <span class="text-tealmed-400">Staff Nurse - Medical-Surgical Ward</span></p>
+<p class="text-xs text-slate-400">Vital signs monitoring, wound care dressing, doctor rounds assistance, and post-operative patient care.</p>
+</div>
+<div class="bg-slate-900 px-4 py-2 rounded-xl border border-slate-700 text-xs font-bold text-tealmed-400 whitespace-nowrap">
+2. Tenure: Jun 2021 - Dec 2022 (1.5 Years)
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: EDUCATIONAL BACKGROUND -->
+<section id="education" class="scroll-mt-24">
+<div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
+<div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800">
+<div class="w-10 h-10 rounded-xl bg-tealmed-500/10 text-tealmed-400 flex items-center justify-center font-bold text-lg border border-tealmed-500/20">
+<i class="fa-solid fa-graduation-cap"></i>
+</div>
+<div>
+<h2 class="text-xl font-bold text-white">4. Educational Background</h2>
+<p class="text-xs text-slate-400">Structured Parts: <strong>1. School</strong>, <strong>2. Years Tenure</strong>, <strong>3. Honors Received</strong>.</p>
+</div>
+</div>
+<div id="educationList" class="space-y-4">
+<!-- Education 1 -->
+<div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/50 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+<div class="space-y-1">
+<span class="text-xs text-tealmed-400 font-bold uppercase tracking-wider">1. School Name</span>
+<h3 class="text-lg font-bold text-white">University of Santo Tomas - College of Nursing</h3>
+<p class="text-sm font-semibold text-amber-400">3. Honors Received: Bachelor of Science in Nursing (BSN) - Cum Laude & Clinical Excellence Award</p>
+</div>
+<div class="bg-slate-900 px-4 py-2 rounded-xl border border-slate-700 text-xs font-bold text-tealmed-400 whitespace-nowrap">
+2. Tenure: 2017 - 2021 (4 Years)
+</div>
+</div>
+<!-- Education 2 -->
+<div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/50 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+<div class="space-y-1">
+<span class="text-xs text-tealmed-400 font-bold uppercase tracking-wider">1. School Name</span>
+<h3 class="text-lg font-bold text-white">Philippine Science High School</h3>
+<p class="text-sm font-semibold text-amber-400">3. Honors Received: STEM Health Science Track - High Honors</p>
+</div>
+<div class="bg-slate-900 px-4 py-2 rounded-xl border border-slate-700 text-xs font-bold text-tealmed-400 whitespace-nowrap">
+2. Tenure: 2011 - 2017 (6 Years)
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: SKILLS AND TALENTS -->
+<section id="skills" class="scroll-mt-24">
+<div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
+<div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800">
+<div class="w-10 h-10 rounded-xl bg-tealmed-500/10 text-tealmed-400 flex items-center justify-center font-bold text-lg border border-tealmed-500/20">
+<i class="fa-solid fa-stethoscope"></i>
+</div>
+<div>
+<h2 class="text-xl font-bold text-white">5. Skills and Talents</h2>
+<p class="text-xs text-slate-400">Clinical competencies, life support certifications, and healthcare management abilities.</p>
+</div>
+</div>
+<div id="skillsList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50 space-y-2">
+<span class="text-[10px] font-bold uppercase tracking-wider text-tealmed-400 px-2 py-0.5 rounded bg-tealmed-500/10 border border-tealmed-500/20">Clinical Competency</span>
+<h3 class="font-bold text-white text-base">IV Therapy & Venipuncture</h3>
+<p class="text-xs text-slate-400">ANSAP Certified</p>
+</div>
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50 space-y-2">
+<span class="text-[10px] font-bold uppercase tracking-wider text-tealmed-400 px-2 py-0.5 rounded bg-tealmed-500/10 border border-tealmed-500/20">Emergency Medicine</span>
+<h3 class="font-bold text-white text-base">BLS & ACLS Certification</h3>
+<p class="text-xs text-slate-400">American Heart Assoc. (AHA)</p>
+</div>
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50 space-y-2">
+<span class="text-[10px] font-bold uppercase tracking-wider text-tealmed-400 px-2 py-0.5 rounded bg-tealmed-500/10 border border-tealmed-500/20">Clinical Competency</span>
+<h3 class="font-bold text-white text-base">Sterile Wound Care & Dressings</h3>
+<p class="text-xs text-slate-400">Advanced Practitioner</p>
+</div>
+<div class="bg-slate-800/40 p-4 rounded-2xl border border-slate-700/50 space-y-2">
+<span class="text-[10px] font-bold uppercase tracking-wider text-tealmed-400 px-2 py-0.5 rounded bg-tealmed-500/10 border border-tealmed-500/20">Healthcare IT</span>
+<h3 class="font-bold text-white text-base">Electronic Health Records (EHR)</h3>
+<p class="text-xs text-slate-400">System Expert</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: PROJECTS ACCOMPLISHED -->
+<section id="projects" class="scroll-mt-24">
+<div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
+<div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800">
+<div class="w-10 h-10 rounded-xl bg-tealmed-500/10 text-tealmed-400 flex items-center justify-center font-bold text-lg border border-tealmed-500/20">
+<i class="fa-solid fa-folder-open"></i>
+</div>
+<div>
+<h2 class="text-xl font-bold text-white">6. Projects Accomplished</h2>
+<p class="text-xs text-slate-400">Structured Parts: <strong>1. Title</strong>, <strong>2. Description</strong>, <strong>3. Photo/Video Proof</strong>.</p>
+</div>
+</div>
+<div id="projectsList" class="grid grid-cols-1 gap-6">
+<!-- FEATURED PROJECT 1: GOAL MAP -->
+<article class="rounded-2xl bg-slate-800/50 border border-tealmed-500/40 overflow-hidden shadow-2xl transition-all">
+<div class="bg-slate-950 p-6 border-b border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-2xl bg-tealmed-500/10 border border-tealmed-500/30 text-tealmed-400 flex items-center justify-center text-2xl font-black shadow-inner">
+<i class="fa-solid fa-map-location-dot"></i>
+</div>
+<div>
+<span class="text-xs font-bold uppercase tracking-wider text-tealmed-400 bg-tealmed-500/10 px-3 py-0.5 rounded-full border border-tealmed-500/20 inline-block mb-1">
+1. Project Title
+</span>
+<h3 class="text-2xl font-extrabold text-white tracking-tight">
+GOAL MAP
+</h3>
+<p class="text-tealmed-400 font-semibold text-xs sm:text-sm">
+My Goal Map: Step by Step From Grade 12 to Officially Nurse
+</p>
+</div>
+</div>
+<!-- Direct Interactive Link Button for GOAL MAP -->
+<a href="https://bejewelled-manatee-d64783.netlify.app/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-gradient-to-r from-tealmed-500 to-tealmed-400 hover:from-tealmed-400 hover:to-tealmed-300 text-slate-950 font-bold px-5 py-3 rounded-xl transition-all shadow-lg shadow-tealmed-500/20 text-xs sm:text-sm whitespace-nowrap active:scale-95">
+<i class="fa-solid fa-arrow-up-right-from-square"></i> Open Live Goal Map Site
+</a>
+</div>
+<div class="p-6 sm:p-8 space-y-4">
+<!-- Visual Banner Proof -->
+<div class="relative rounded-2xl overflow-hidden border border-slate-700/60 bg-slate-900 group">
+<img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200" 
+alt="Goal Map Project Banner" 
+class="w-full h-56 sm:h-64 object-cover opacity-80 group-hover:scale-105 transition-transform duration-500">
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent flex flex-col justify-end p-6">
+<span class="text-xs font-bold text-tealmed-400 bg-slate-950/80 px-3 py-1 rounded-lg border border-tealmed-500/30 w-fit mb-2">
+<i class="fa-solid fa-circle-check text-emerald-400"></i> 3. Photo Proof Attached
+</span>
+<p class="text-white font-bold text-sm sm:text-base">
+Interactive Career Timeline Web Application hosted live at <span class="text-tealmed-400 underline">bejewelled-manatee-d64783.netlify.app</span>
+</p>
+</div>
+</div>
+<div class="space-y-3 pt-2">
+<h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">
+2. Description & Milestones:
+</h4>
+<p class="text-slate-200 text-sm sm:text-base leading-relaxed">
+Ang <strong>Goal Map</strong> ("My Goal Map: Step by Step From Grade 12 to Officially Nurse") ay isang komprehensibong career roadmap na nagtatala sa 10 susing milestones mula Senior High School hanggang sa pagiging isang ganap na Registered Nurse (RN):
+</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs text-slate-300">
+<div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
+<strong class="text-tealmed-400 block text-sm mb-0.5">01. Grade 12 - The Foundation</strong>
+I already passed Grade 12. I already did my best and gave my all. I already prepared for what's next.
+</div>
+<div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
+<strong class="text-tealmed-400 block text-sm mb-0.5">02. College Entrance Exam</strong>
+I already passed the college entrance exam. I already worked hard and prepared well.
+</div>
+<div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
+<strong class="text-tealmed-400 block text-sm mb-0.5">03. Accepted in Nursing Program</strong>
+I already passed the admission process. I already got accepted in a BSN program.
+</div>
+<div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
+<strong class="text-tealmed-400 block text-sm mb-0.5">04. Completed Pre-Nursing Requirements</strong>
+I already passed all my pre-nursing subjects. I already built a strong foundation for nursing.
+</div>
+<div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
+<strong class="text-tealmed-400 block text-sm mb-0.5">05. Completed All Nursing Courses</strong>
+I already passed all my nursing subjects. I already learned a lot and grew every day.
+</div>
+<div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
+<strong class="text-tealmed-400 block text-sm mb-0.5">06. Practicum & Clinical Experience</strong>
+I already passed my clinical duties. I already gained real experience and skills.
+</div>
+<div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
+<strong class="text-tealmed-400 block text-sm mb-0.5">07. NCLEX-RN Exam</strong>
+I already passed the NCLEX-RN exam. I already proved that I can be a safe and competent nurse.
+</div>
+<div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
+<strong class="text-tealmed-400 block text-sm mb-0.5">08. Registered Nurse (PRC Registration)</strong>
+I already passed the PRC registration. I already have my license number.
+</div>
+<div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
+<strong class="text-tealmed-400 block text-sm mb-0.5">09. Oath Taking Ceremony</strong>
+I already took the Nurse's Oath. I already promised to serve with heart and compassion.
+</div>
+<div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
+<strong class="text-tealmed-400 block text-sm mb-0.5">10. Officially A Nurse</strong>
+I already achieved my dream. I am now officially a nurse. I already started making a difference. I am proud of how far I've come.
+</div>
+</div>
+</div>
+</div>
+</article>
+<!-- PROJECT 2: WORKPLACE SHARK TANK -->
+<article class="rounded-2xl bg-slate-800/50 border border-pink-500/40 overflow-hidden shadow-2xl transition-all">
+<div class="bg-slate-950 p-6 border-b border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-2xl bg-pink-500/10 border border-pink-500/30 text-pink-400 flex items-center justify-center text-2xl font-black shadow-inner">
+<i class="fa-solid fa-gem"></i>
+</div>
+<div>
+<span class="text-xs font-bold uppercase tracking-wider text-pink-400 bg-pink-500/10 px-3 py-0.5 rounded-full border border-pink-500/20 inline-block mb-1">
+1. Project Title
+</span>
+<h3 class="text-2xl font-extrabold text-white tracking-tight">
+Workplace Shark Tank
+</h3>
+<p class="text-pink-400 font-semibold text-xs sm:text-sm">
+Dezel Cosmetics Brand Launch & Recruitment Campaign
+</p>
+</div>
+</div>
+</div>
+<div class="p-6 sm:p-8 space-y-6">
+<div class="flex flex-col lg:flex-row gap-6 items-center">
+<div class="w-full lg:w-1/2 rounded-2xl overflow-hidden border border-pink-500/30 bg-slate-900 shadow-xl relative group">
+<img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=1000" 
+alt="Dezel Cosmetics Workplace Shark Tank Poster" 
+class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+<span class="absolute top-3 left-3 bg-slate-950/90 text-pink-400 text-xs font-bold px-3 py-1.5 rounded-xl border border-pink-500/30 shadow-lg">
+<i class="fa-solid fa-camera"></i> 3. Photo Proof Attached
+</span>
+</div>
+<div class="w-full lg:w-1/2 space-y-4">
+<h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">
+2. Description:
+</h4>
+<p class="text-slate-200 text-sm sm:text-base leading-relaxed">
+Naisakatuparan sa proyektong <strong>Workplace Shark Tank</strong> ang pagbuo ng promosyonal at recruitment material para sa <strong>Dezel Cosmetics</strong> na may tagline na <em>"Unveil Your Beauty, Define Your Elegance."</em>
+</p>
+<div class="space-y-2 text-xs text-slate-300 bg-slate-900/80 p-4 rounded-xl border border-slate-800">
+<strong class="text-pink-400 block text-sm mb-1"><i class="fa-solid fa-bullhorn text-pink-400 mr-1"></i> Highlights ng Recruitment Flyer:</strong>
+<ul class="list-disc list-inside space-y-1">
+<li><strong>Open Positions:</strong> Sales Associate / Makeup Consultant, Store Assistant, Social Media Support, Beauty Enthusiasts.</li>
+<li><strong>Qualifications:</strong> Passionate about beauty & skincare, friendly, hardworking, team player.</li>
+<li><strong>Offers:</strong> Competitive salary, product discounts, training & career growth opportunities.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article>
+<!-- PROJECT 3: TIKTOK O REELS CAREER SKIT CHALLENGE -->
+<article class="rounded-2xl bg-slate-800/50 border border-purple-500/40 overflow-hidden shadow-2xl transition-all">
+<div class="bg-slate-950 p-6 border-b border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-2xl bg-purple-500/10 border border-purple-500/30 text-purple-400 flex items-center justify-center text-2xl font-black shadow-inner">
+<i class="fa-solid fa-video"></i>
+</div>
+<div>
+<span class="text-xs font-bold uppercase tracking-wider text-purple-400 bg-purple-500/10 px-3 py-0.5 rounded-full border border-purple-500/20 inline-block mb-1">
+1. Project Title
+</span>
+<h3 class="text-2xl font-extrabold text-white tracking-tight">
+TikTok o Reels Career Skit Challenge
+</h3>
+<p class="text-purple-400 font-semibold text-xs sm:text-sm">
+Creative Short Video & Career Skit Presentation
+</p>
+</div>
+</div>
+<a href="https://drive.google.com/file/d/1H9LS7qjO3maAG1nyY4CaancRo77AP4at/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-indigo-400 hover:from-purple-400 hover:to-indigo-300 text-slate-950 font-bold px-5 py-3 rounded-xl transition-all shadow-lg shadow-purple-500/20 text-xs sm:text-sm whitespace-nowrap active:scale-95">
+<i class="fa-solid fa-circle-play text-slate-950"></i> Watch Video Advertisement
+</a>
+</div>
+<div class="p-6 sm:p-8 space-y-4">
+<div class="bg-slate-900/80 p-5 rounded-2xl border border-slate-800 space-y-3">
+<span class="text-xs font-bold text-purple-400 bg-purple-500/10 px-3 py-1 rounded-lg border border-purple-500/20 inline-block">
+<i class="fa-solid fa-film text-purple-400 mr-1"></i> 3. Video Proof Link
+</span>
+<h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">2. Description:</h4>
+<p class="text-slate-200 text-sm sm:text-base leading-relaxed">
+Isang malikhaing video advertisement at career skit challenge na idinisenyo para sa TikTok at Reels format. Ipinapakita nito ang masiglang presensya ng brand, propesyonal na presentasyon, at maayos na pakikipag-ugnayan sa pamamagitan ng social media video content.
+</p>
+<div class="pt-2">
+<a href="https://drive.google.com/file/d/1H9LS7qjO3maAG1nyY4CaancRo77AP4at/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline font-bold text-xs sm:text-sm inline-flex items-center gap-1">
+<i class="fa-solid fa-arrow-up-right-from-square"></i> Open Google Drive Video (1H9LS7qjO3maAG1nyY4CaancRo77AP4at)
+</a>
+</div>
+</div>
+</div>
+</article>
+<!-- PROJECT 4: Emergency Triage Optimization -->
+<article class="rounded-2xl bg-slate-800/40 border border-slate-700/50 overflow-hidden flex flex-col md:flex-row gap-6 p-6 items-center">
+<div class="w-full md:w-1/3 aspect-video md:aspect-square rounded-xl overflow-hidden border border-slate-700 relative group">
+<img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=600" 
+alt="Clinical Care & Triage Optimization Project Photo" 
+class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+<span class="absolute bottom-2 left-2 bg-slate-950/90 text-tealmed-400 text-[10px] font-bold px-2.5 py-1 rounded-md border border-tealmed-500/30">
+<i class="fa-solid fa-camera"></i> 3. Photo Proof Attached
+</span>
+</div>
+<div class="space-y-3 flex-1">
+<span class="text-[10px] uppercase tracking-wider font-bold px-2.5 py-0.5 rounded bg-tealmed-500/10 text-tealmed-400 border border-tealmed-500/20 inline-block">
+1. Project Title
+</span>
+<h3 class="text-xl font-bold text-white">Emergency Triage Optimization & Patient Flow Improvement</h3>
+<div class="space-y-1">
+<h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">2. Description:</h4>
+<p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+Nanguna sa pagbuo at pagpapatupad ng pinagbuting Emergency Room (ER) Triage protocol na nagpababa ng waiting time ng mga emergency patients nang hanggang 25%. Kabilang dito ang pag-organisa ng patient vital sign assessment stations at seamless electronic logging procedure.
+</p>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- SECTION 7: CHARACTER REFERENCES -->
+<section id="references" class="scroll-mt-24">
+<div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
+<div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800">
+<div class="w-10 h-10 rounded-xl bg-tealmed-500/10 text-tealmed-400 flex items-center justify-center font-bold text-lg border border-tealmed-500/20">
+<i class="fa-solid fa-users"></i>
+</div>
+<div>
+<h2 class="text-xl font-bold text-white">7. Character References</h2>
+<p class="text-xs text-slate-400">Structured Parts: <strong>1. Name</strong>, <strong>2. Home Address</strong>, <strong>3. Phone Number</strong>, <strong>4. Current Job Position</strong>.</p>
+</div>
+</div>
+<div id="referencesList" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Reference 1 -->
+<div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/50 space-y-3">
+<div class="w-10 h-10 rounded-xl bg-slate-900 text-tealmed-400 flex items-center justify-center font-bold">
+<i class="fa-solid fa-user-tie"></i>
+</div>
+<div>
+<span class="text-xs text-tealmed-400 font-bold uppercase tracking-wider block">1. Reference Name</span>
+<h3 class="text-lg font-bold text-white">Jim Irish Mantes</h3>
+<span class="inline-block mt-1 text-xs font-semibold px-2 py-0.5 rounded bg-tealmed-500/10 text-tealmed-400 border border-tealmed-500/20">4. Position: Teacher</span>
+</div>
+<div class="pt-2 border-t border-slate-700/50 space-y-1 text-xs text-slate-300">
+<p><strong>2. Home Address:</strong> Purok 3, BRGY. BEDDENG, SAN NARCISO ZAMBALES</p>
+<p><strong>3. Phone Number:</strong> <a href="tel:09099158294" class="text-tealmed-400 hover:underline font-bold">09099158294</a></p>
+</div>
+</div>
+<!-- Reference 2 -->
+<div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/50 space-y-3">
+<div class="w-10 h-10 rounded-xl bg-slate-900 text-tealmed-400 flex items-center justify-center font-bold">
+<i class="fa-solid fa-user-tie"></i>
+</div>
+<div>
+<span class="text-xs text-tealmed-400 font-bold uppercase tracking-wider block">1. Reference Name</span>
+<h3 class="text-lg font-bold text-white">Simon Patrick P. Estareja</h3>
+<span class="inline-block mt-1 text-xs font-semibold px-2 py-0.5 rounded bg-tealmed-500/10 text-tealmed-400 border border-tealmed-500/20">4. Position: Teacher</span>
+</div>
+<div class="pt-2 border-t border-slate-700/50 space-y-1 text-xs text-slate-300">
+<p><strong>2. Home Address:</strong> BRGY. PATROCINIO</p>
+<p><strong>3. Phone Number:</strong> <a href="tel:09999051806" class="text-tealmed-400 hover:underline font-bold">09999051806</a></p>
+</div>
+</div>
+<!-- Reference 3 -->
+<div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/50 space-y-3">
+<div class="w-10 h-10 rounded-xl bg-slate-900 text-tealmed-400 flex items-center justify-center font-bold">
+<i class="fa-solid fa-user-tie"></i>
+</div>
+<div>
+<span class="text-xs text-tealmed-400 font-bold uppercase tracking-wider block">1. Reference Name</span>
+<h3 class="text-lg font-bold text-white">Liezl Perfecto</h3>
+<span class="inline-block mt-1 text-xs font-semibold px-2 py-0.5 rounded bg-tealmed-500/10 text-tealmed-400 border border-tealmed-500/20">4. Position: Teacher</span>
+</div>
+<div class="pt-2 border-t border-slate-700/50 space-y-1 text-xs text-slate-300">
+<p><strong>2. Home Address:</strong> San Narciso Zambales</p>
+<p><strong>3. Phone Number:</strong> <a href="tel:09171490628" class="text-tealmed-400 hover:underline font-bold">09171490628</a></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 8: CONTACT ME -->
+<section id="contact" class="scroll-mt-24 pb-12">
+<div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl">
+<div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800">
+<div class="w-10 h-10 rounded-xl bg-tealmed-500/10 text-tealmed-400 flex items-center justify-center font-bold text-lg border border-tealmed-500/20">
+<i class="fa-solid fa-envelope"></i>
+</div>
+<div>
+<h2 class="text-xl font-bold text-white">8. Contact Me</h2>
+<p class="text-xs text-slate-400">Employer contact channels and direct communication links.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-slate-800/40 p-6 rounded-2xl border border-slate-700/50 text-center space-y-3">
+<div class="w-12 h-12 rounded-2xl bg-tealmed-500/10 text-tealmed-400 flex items-center justify-center font-bold text-xl mx-auto">
+<i class="fa-solid fa-at"></i>
+</div>
+<h3 class="text-sm font-bold uppercase tracking-wider text-slate-400">Email Address</h3>
+<p id="contactEmail" class="font-bold text-white text-base">ejeckaine@gmail.com</p>
+<a href="mailto:ejeckaine@gmail.com" class="inline-block bg-tealmed-500 hover:bg-tealmed-400 text-slate-950 font-bold px-4 py-2 rounded-xl text-xs transition-all">
+Send Email
+</a>
+</div>
+<div class="bg-slate-800/40 p-6 rounded-2xl border border-slate-700/50 text-center space-y-3">
+<div class="w-12 h-12 rounded-2xl bg-tealmed-500/10 text-tealmed-400 flex items-center justify-center font-bold text-xl mx-auto">
+<i class="fa-solid fa-phone"></i>
+</div>
+<h3 class="text-sm font-bold uppercase tracking-wider text-slate-400">Phone / Mobile</h3>
+<p id="contactPhone" class="font-bold text-white text-base">09164030463</p>
+<a href="tel:09164030463" class="inline-block bg-tealmed-500 hover:bg-tealmed-400 text-slate-950 font-bold px-4 py-2 rounded-xl text-xs transition-all">
+Call Mobile
+</a>
+</div>
+<div class="bg-slate-800/40 p-6 rounded-2xl border border-slate-700/50 text-center space-y-3">
+<div class="w-12 h-12 rounded-2xl bg-tealmed-500/10 text-tealmed-400 flex items-center justify-center font-bold text-xl mx-auto">
+<i class="fa-solid fa-location-dot"></i>
+</div>
+<h3 class="text-sm font-bold uppercase tracking-wider text-slate-400">Location</h3>
+<p id="contactAddress" class="font-semibold text-slate-200 text-xs">San Narciso, Zambales, Philippines</p>
+<span class="inline-block bg-slate-900 text-tealmed-400 font-bold px-4 py-2 rounded-xl text-xs border border-slate-700">
+Available Immediately
+</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-900 border-t border-slate-800 py-6 text-center text-xs text-slate-400">
+<div class="max-w-6xl mx-auto px-4 space-y-2">
+<p>© 2026 Elohrd Jeckaine M. Pantilon, RN. All Rights Reserved.</p>
+<p class="text-slate-500">Registered Nurse Portfolio | Interactive Web Version</p>
+</div>
+</footer>
+<!-- Interactive Navigation & Helper Scripts -->
+<script>
+function copyPortfolioLink() {
+const portfolioUrl = window.location.href;
+if (navigator.clipboard && window.isSecureContext) {
+navigator.clipboard.writeText(portfolioUrl).then(() => {
+showToast('✓ Portfolio Link copied to clipboard!');
+}).catch(() => {
+fallbackCopyTextToClipboard(portfolioUrl, '✓ Portfolio Link copied to clipboard!');
+});
+} else {
+fallbackCopyTextToClipboard(portfolioUrl, '✓ Portfolio Link copied to clipboard!');
+}
+}
+function copyPortfolioContents() {
+const portfolioText = `
+ELOHRD JECKAINE M. PANTILON, RN
+Nursing Job Application Portfolio, GOAL MAP, WORKPLACE SHARK TANK & TIKTOK/REELS SKIT
+========================================
+1. ABOUT ME / SUMMARY
+========================================
+Ako si Elohrd Jeckaine M. Pantilon, isang dedikado at lisensyadong Registered Nurse (RN) na may masigasig na layuning magbigay ng ligtas, episyente, at compassionate patient care. May karanasan sa Emergency Room (ER) at Medical-Surgical Ward, certified sa Basic Life Support (BLS) at Advanced Cardiac Life Support (ACLS). Nakahanda akong maglingkod nang buong husay, mabilis tumugon sa medikal na emergency, at makipagtulungan sa interdisciplinary medical team upang masiguro ang mabilisang paggaling at kaligtasan ng bawat pasyente.
+========================================
+2. PERSONAL INFORMATION
+• Full Name: Elohrd Jeckaine M. Pantilon
+• Email Address: ejeckaine@gmail.com
+• Phone Number: 09164030463
+• PRC License: PRC License # 0892341 (Valid until Oct 2028)
+• Date of Birth & Age: October 14, 1998 (27 yrs old)
+• Civil Status: Single
+• Nationality: Filipino
+• Languages Spoken: Filipino, English, Basic Ilocano
+• Address: San Narciso, Zambales, Philippines
+• Work Availability: Full-Time (Rotational / Night Shift Ready)
+========================================
+3. WORK EXPERIENCE
+1. St. Jude General Hospital & Medical Center
+￼ Position: Staff Nurse - Emergency Department (ED)
+￼ Tenure: Jan 2023 - Present (2+ Years)
+2. Metropolitan Medical Ward Clinic
+￼ Position: Staff Nurse - Medical-Surgical Ward
+￼ Tenure: Jun 2021 - Dec 2022 (1.5 Years)
+========================================
+4. EDUCATIONAL BACKGROUND
+1. University of Santo Tomas - College of Nursing (BSN Cum Laude)
+2. Philippine Science High School (STEM Health Science Track)
+========================================
+6. PROJECTS ACCOMPLISHED
+Project 1: GOAL MAP
+• Title: GOAL MAP (My Goal Map: Step by Step From Grade 12 to Officially Nurse)
+• Live Link: https://bejewelled-manatee-d64783.netlify.app/
+Project 2: WORKPLACE SHARK TANK
+• Title: Workplace Shark Tank (Dezel Cosmetics Brand Launch & Recruitment Campaign)
+Project 3: TIKTOK O REELS CAREER SKIT CHALLENGE
+• Title: TikTok o Reels Career Skit Challenge
+• Video Link: https://drive.google.com/file/d/1H9LS7qjO3maAG1nyY4CaancRo77AP4at/view?usp=drivesdk
+========================================
+7. CHARACTER REFERENCES
+1. Jim Irish Mantes - Teacher (09099158294) - BRGY. BEDDENG, SAN NARCISO
+2. Simon Patrick P. Estareja - Teacher (09999051806) - BRGY. PATROCINIO
+3. Liezl Perfecto - Teacher (09171490628) - San Narciso Zambales
+`.trim();
+if (navigator.clipboard && window.isSecureContext) {
+navigator.clipboard.writeText(portfolioText).then(() => {
+showToast('✓ Portfolio text copied to clipboard!');
+}).catch(() => {
+fallbackCopyTextToClipboard(portfolioText);
+});
+} else {
+fallbackCopyTextToClipboard(portfolioText);
+}
+}
+function fallbackCopyTextToClipboard(text, customSuccessMsg) {
+const textArea = document.createElement("textarea");
+textArea.value = text;
+textArea.style.position = "fixed";
+textArea.style.left = "-999999px";
+textArea.style.top = "-999999px";
+document.body.appendChild(textArea);
+textArea.focus();
+textArea.select();
+try {
+document.execCommand('copy');
+showToast(customSuccessMsg || '✓ Portfolio contents copied!');
+} catch (err) {
+showToast('Failed to copy text.');
+}
+document.body.removeChild(textArea);
+}
+function showToast(msg) {
+const toast = document.getElementById('toastNotification');
+const toastMessage = document.getElementById('toastMessage');
+if (toast && toastMessage) {
+toastMessage.textContent = msg;
+toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+toast.classList.add('translate-y-0', 'opacity-100');
+setTimeout(() => {
+toast.classList.remove('translate-y-0', 'opacity-100');
+toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+}, 3000);
+}
+}
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+if (mobileMenuBtn && mobileMenu) {
+mobileMenuBtn.addEventListener('click', () => {
+mobileMenu.classList.toggle('hidden');
+});
+mobileMenu.querySelectorAll('a').forEach(link => {
+link.addEventListener('click', () => {
+mobileMenu.classList.add('hidden');
+});
+});
+}
+</script>
+</body>
+</html>
